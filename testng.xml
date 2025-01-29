@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test name="Ebay">
+   <classes>
+      <class name="upskill.runners.RunnerClass"/>
+    </classes>
+  </test> <!-- Test ends -->
+</suite> <!-- Suite ends -->
+
+<!-- TestNG.xml which is widely used in Selenium for managing test execution, particularly parallel tests. -->
+<!--  It says what is the name of the test and what type of test we are running -->
+<!--  It also says where we have the runner class file. -->

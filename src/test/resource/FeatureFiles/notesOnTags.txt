@@ -1,0 +1,16 @@
+Key Points about Tags for cucumber Runner Class:
+Single Tag:
+
+tags = "@SmokeTest": Runs scenarios or features tagged with @SmokeTest.
+Multiple Tags (AND condition):
+
+tags = "@SmokeTest and @Regression": Runs scenarios tagged with both @SmokeTest and @Regression.
+Multiple Tags (OR condition):
+
+tags = "@SmokeTest or @Regression": Runs scenarios tagged with either @SmokeTest or @Regression.
+Excluding Tags:
+
+tags = "not @Slow": Excludes scenarios tagged with @Slow.
+Complex Tag Expressions:
+
+tags = "@SmokeTest and not @Slow": Runs scenarios tagged with @SmokeTest but excludes those tagged with @Slow.
