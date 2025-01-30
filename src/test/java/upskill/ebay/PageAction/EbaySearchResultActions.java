@@ -53,6 +53,31 @@ public class EbaySearchResultActions {
 		EbaySearchResultLocatorsObj.txtShirts.isDisplayed();
 	}
 
+	public void verifyPensItems() {
+		
+		//Option 1
+		Assert.assertTrue(EbaySearchResultLocatorsObj.txtPens.isDisplayed());
+		
+		//Option 2
+		Assert.assertEquals("Pens", EbaySearchResultLocatorsObj.txtPens.getText());
+		
+		//Option 3
+		EbaySearchResultLocatorsObj.txtPens.isDisplayed();
+		
+	}
+
+	public void verifyLaptposItems() {
+		//Option 1
+		Assert.assertTrue(EbaySearchResultLocatorsObj.txtLaptops.isDisplayed());
+		
+		//Option 2
+		Assert.assertEquals("Laptops", EbaySearchResultLocatorsObj.txtLaptops.getText());
+		
+		//Option 3
+		EbaySearchResultLocatorsObj.txtLaptops.isDisplayed();
+		
+	}
+
 
 	
 	

@@ -27,4 +27,15 @@ public class EbaySearchResultSteps {
 		EbaySearchResultActionsObj.verifyShirtsItems();
 	}
 	
+	
+	@Then("^Item list should have only Pens related products$")
+	public void item_list_should_have_only_Pens_related_products() throws Throwable {
+		EbaySearchResultActionsObj.verifyPensItems();
+	}
+	
+	@Then("^Item list should only have Laptops related products$")
+	public void item_list_should_only_have_Laptops_related_products() throws Throwable {
+		EbaySearchResultActionsObj.verifyLaptposItems();
+		
+	}
 }

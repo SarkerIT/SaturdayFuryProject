@@ -15,3 +15,12 @@ Feature: Ebay Search Functionality
 	Scenario: Search for Shirts
 		When Search for Shirts
 		Then Item list should have only Shirts related products
+		
+	Scenario: Search for Pens	
+		When Search for Pens
+		Then Item list should have only Pens related products
+		
+	Scenario:
+		Given Open Ebay Homepage
+		When Search for Laptops
+		Then Item list should only have Laptops related products

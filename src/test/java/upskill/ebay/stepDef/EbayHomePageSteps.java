@@ -38,5 +38,18 @@ public class EbayHomePageSteps {
 		EbayHomePageActionsObj.searchShirts();
 
 	}
+	
+	@When("^Search for Pens$")
+	public void search_for_Pens() throws Throwable {
+		EbayHomePageActionsObj.searchPens();
+		
+	}
+	
+	
+	@When("^Search for Laptops$")
+	public void search_for_Laptops() throws Throwable {
+			EbayHomePageActionsObj.searchLaptops();
+		
+	}
 
 }

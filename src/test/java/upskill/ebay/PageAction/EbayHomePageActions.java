@@ -79,6 +79,25 @@ public class EbayHomePageActions {
 		
 	}
 	
+	public void searchPens(){
+	EbayHomePageLocatorsObj.txtbxSearch.sendKeys("Pens");
+	EbayHomePageLocatorsObj.btnSearch.click();
+}
+
+
+
+
+	public void searchLaptops() {
+		EbayHomePageLocatorsObj.txtbxSearch.sendKeys("Laptops");
+		EbayHomePageLocatorsObj.btnSearch.click();
+	}
+
+
+
+
+
+	
+	
 	
 //	public void searchShirts() throws Exception{
 ////		EbayHomePageLocatorsObj.txtbxSearch.sendKeys("Shirts");
