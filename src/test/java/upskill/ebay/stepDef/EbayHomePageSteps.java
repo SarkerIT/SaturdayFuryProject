@@ -22,14 +22,12 @@ public class EbayHomePageSteps {
 
 	@When("^Search for shoes$")
 	public void search_for_shoes() throws Throwable {
-		EbayHomePageActionsObj.searchShoes();
-	   
+		EbayHomePageActionsObj.searchShoes();	   
 	}
 	
 	@When("^Search for Pants$")
 	public void search_for_Pants() throws Throwable {
 		EbayHomePageActionsObj.searchPants();
-
 	}
 	
 	
@@ -41,15 +39,19 @@ public class EbayHomePageSteps {
 	
 	@When("^Search for Pens$")
 	public void search_for_Pens() throws Throwable {
-		EbayHomePageActionsObj.searchPens();
-		
+		EbayHomePageActionsObj.searchPens();		
 	}
 	
 	
 	@When("^Search for Laptops$")
 	public void search_for_Laptops() throws Throwable {
-			EbayHomePageActionsObj.searchLaptops();
-		
+			EbayHomePageActionsObj.searchLaptops();		
 	}
+	
+	@Given("^Search for \"([^\"]*)\"$")
+	public void search_for(String items) throws Throwable {
+
+	}
+
 
 }
